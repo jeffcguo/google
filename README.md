@@ -1,0 +1,1 @@
+The purpose of this project is to rebuild an existing website, so that I can familiarze with basic HTML and CSS coding skills.
