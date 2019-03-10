@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+
+
+
+.topnav{
+    font: small arial, sans-serif;
+    color: black !important;
+    text-decoration: none;
+    display: block;
+    width: auto;
+    float: right;
+}
+
+#gmail{
+    color: inherit;
+    text-decoration: inherit;
+    line-height: 24px;
+    margin: 0px;
+
+}
+#images{
+    color: inherit;
+    text-decoration: inherit;
+    line-height: 24px;
+    padding-left: 15px;
+    margin: 0px;
+    padding-right: 30px;
+}
+
+#gmail:hover, #images:hover{
+    text-decoration: underline;
+}
+
+.whitespace{
+    height:0px;
+}
+
+
+.googlelogo{
+    font-family: "Noto Sans JP";
+    font-size: 60pt;
+    font-weight: bold;
+    padding-top:200px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    min-width: 360px;
+    width: 100%;
+}
+.letters{
+    letter-spacing: 0pt;
+    padding: 0px;
+    margin: 0px;
+\
+}
+#G{
+    color: cornflowerblue;
+    display: inline;
+}
+#o{
+    color: crimson;
+    display: inline;
+}
+#z{
+    color: orange;
+    display: inline;
+}
+#g{
+    color: cornflowerblue;
+    display: inline;
+}
+#l{
+    color: forestgreen;
+    display: inline;
+}
+#e{
+    color: crimson;
+    display: inline;
+}
+.searchbox{
+    min-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+#searchbar{
+    height: 44px;
+    width: 316px;
+    text-align: left;
+    font: 18px arial, sans-serif;
+    color: rgb(185,185,185);
+    max-width: 672px;
+    border: 1px solid rgb(185,185,185);
+    border-right: none;
+    border-radius: 1px;
+    cursor: text;
+    padding: 0px;
+}
+:focus{
+    box-shadow: none;
+    outline-style: none;
+}
+
+#searchbar:focus{
+    box-shadow: -1px 2px 2px rgb(216, 216, 216), 46px 2px 2px rgb(216, 216, 216);
+}
+#microphone {
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+    background: white;
+    border: 1px solid rgb(185,185,185);
+    border-left: none;
